@@ -1,0 +1,33 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(4, 79, 240);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: chocolate;
+  font-size: 48px;
+  margin: 0;
+}
+
+.description {
+  color: chocolate;
+  margin: 0;
+  padding: 4px 4px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.picture {
+  width: 400px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  outline: 4px dashed rgb(130, 238, 159);
+}
